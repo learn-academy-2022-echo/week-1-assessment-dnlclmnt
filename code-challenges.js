@@ -22,30 +22,28 @@ const fruit4 = "kiwi"
 // Pseudo code:
 /*
 1.  Create function named boilingFunc
-2.  Function takes in a number (temp) as argument
-3.  Conditional statement  if temp is at, below, or above boiling point
+2.  Function takes in a number (temp variables) as argument
+3.  Conditional statement if temp is at, below, or above boiling point
 4.  Output temp parameter is above boiling point in string
 */
 
-const belowBoil = 42
-const aboveBoil = 350
-const atBoil = 212
+const temp1 = 42
+const temp2 = 350
+const temp3 = 212
 
 const boilingFunc = (temp) => {
-    if (temp === belowBoil || temp < atBoil) {
+    if (temp < 212) {
         return `${temp} is below boiling point`
-    } else if (temp === atBoil) {
+    } else if (temp === 212) {
         return `${temp} is at boiling point`
-    } else if (temp === aboveBoil || temp > atBoil) {
+    } else if (temp > 212) {
         return `${temp} is above boiling point`
     }
 }
 
-console.log(boilingFunc(42))
-console.log(boilingFunc(31))
-console.log(boilingFunc(212))
-console.log(boilingFunc(350))
-console.log(boilingFunc(400))
+console.log(boilingFunc(temp1))
+console.log(boilingFunc(temp2))
+console.log(boilingFunc(temp3))
 
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the variables provided below. Expected output: 10
