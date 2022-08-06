@@ -18,19 +18,17 @@ Your answer: Git is a software that allows versions of software to be passed bac
 
 Researched answer: Git stands for "Global Information Tracker". Git has allowed for greater collaboration between users and organizations. Github is essential in managing projects that use Git. Github is also cloud-based storage, with several safety measures in place to help ensure that files being passed back and forth with Git are as secure as possible.
 
-We use git and github daily with
-
 2. Which JavaScript operators will return a Boolean value?
 
 Your answer: Comparison (relational) operators. These include <, >, <=, >=, == (loose equality), === (strict equality), and ! (the bang operator)
 
-Researched answer:
+Researched answer: The result of comparison operators evaluates to a truth or false value (boolean).
 
 3. What is an index? What is the difference between index and value?
 
 Your answer: An index is a location for data. A value is whatever data is given to the right of the assignment operator (=).
 
-Researched answer:
+Researched answer: A value is the information stored within a variable. 
 
 4. What is iteration?
 
